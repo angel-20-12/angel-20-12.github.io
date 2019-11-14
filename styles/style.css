@@ -1,11 +1,9 @@
 .ba-menu{
     display: flex;
-    align-items: center; 
-    list-style: none;
+    align-items: center;
 }
 
-.ba-menu__link{
+.ba-menu__link {
     color: inherit;
     text-decoration: none;
-
 }
