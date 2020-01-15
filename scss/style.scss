@@ -1,10 +1,90 @@
 /* style.scss*/
+.ba-logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
 .ba-menu{
     display: flex;
     align-items: center;
+    margin: 0;
+    list-style: none;
 }
 
 .ba-menu__link {
     color: inherit;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 24px;
+}
+
+.ba-header {
+    position: absolute;
+    color: #ffffff;
+    width: 100%;
+    top: 35px;
+
+    .container {
+        max-width: 995px;
+    }
+}
+
+.ba-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../img/Rectangle2.png), url(../img/Rectangle2copy.png) ;
+}
+
+.ba-welcom {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: 500px;
+    color: #ffffff;
+}
+
+.ba-title {
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 41px;
+    }
+    p {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    &__btn {
+    display: inline-block;
+    box-sizing: border-box;
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    min-height: 41px;
+    padding: 0 30px;
+    }
+}
+
+.ba-footer {
+    height: 100px;
 }
