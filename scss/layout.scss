@@ -4,6 +4,10 @@ $gap: 15px;
 $columsCount: 12;
 $colWidth: 100% / $columsCount;
 
+body {
+    margin: 0px;
+}
+
 * {
     box-sizing: border-box;
 }
