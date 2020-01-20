@@ -28,6 +28,7 @@
     color: #ffffff;
     width: 100%;
     top: 35px;
+    z-index: 1;
 
     .container {
         max-width: 995px;
@@ -37,7 +38,7 @@
 .ba-header-wrapper {
     display: flex;
     justify-content: space-between;
-    margin-right: 80px;
+    margin-right: 78px;
 }
 
 main {
@@ -45,24 +46,40 @@ main {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image:url(../img/Rectangle2.png), url(../img/Rectangle2copy.png) ;
+    background-image: url(../img/Rectangle2copy.png) ;
+    z-index: 0;
 }
 
 .ba-welcom {
     display: flex;
     align-items: center;
     text-align: center;
-    min-height: 500px;
+    min-height: 100%;
     color: #ffffff;
 }
 
+.ba-overlay {
+    position: absolute;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    }
+
 .ba-title {
+    position: relative;
+    top: 21px;
+
     h1 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         text-transform: uppercase;
         font-size: 41px;
+        margin: 0px;
     }
+
     p {
         font-family: 'Roboto Slab', serif;
         font-weight: 400;
@@ -70,21 +87,62 @@ main {
     }
 
     &__btn {
-    display: inline-block;
-    box-sizing: border-box;
-    background: none;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 3px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 13px;
-    min-height: 41px;
-    padding: 0 30px;
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+        background: none;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 13px;
+        min-height: 41px;
+        padding: 0 30px;
+        top: 27px;
+    }
+    
+    &__btn:hover {
+        color: #6f1d11;
+        font-weight: 700;
+        opacity: .8;
+        background: white;
     }
 }
 
-.ba-footer {
+.ba-services {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 36px;
+   
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #555555;
+    }
+
+    p {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #555555;
+    }
+}
+
+.ba-dash {
+    height: 3px;
+    width: 50px;
+    background-color: #555555;
+    margin: 20px auto;
+}
+
+
+
+
+.ba-footer { 
     height: 100px;
 }
