@@ -4,7 +4,7 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 24px;
 }
 
 .ba-menu{
@@ -19,7 +19,7 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 16px;
     margin-left: 24px;
 }
 
@@ -120,7 +120,7 @@ main {
     h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 20px;
         text-transform: uppercase;
         color: #555555;
     }
@@ -128,7 +128,7 @@ main {
     p {
         font-family: 'Roboto Slab', serif;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 16px;
         color: #555555;
     }
 }
@@ -140,6 +140,30 @@ main {
     margin: 20px auto;
 }
 
+.ba-font_aw {
+    height: 88px;
+    border-radius: 50%;
+    border: 2px solid #dedede;
+
+}
+
+.fas, .far {
+    color: #c0301c;
+}
+
+.ba-services_menu {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555555;
+
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
 
 
 
