@@ -19,7 +19,7 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 24px;
 }
 
@@ -42,12 +42,14 @@
 }
 
 main {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/Rectangle2copy.png) ;
     z-index: 0;
+    position: relative;
+    background-position: bottom;
 }
 
 .ba-welcom {
@@ -76,14 +78,14 @@ main {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         text-transform: uppercase;
-        font-size: 41px;
+        font-size: 48px;
         margin: 0px;
     }
 
     p {
         font-family: 'Roboto Slab', serif;
         font-weight: 400;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     &__btn {
@@ -97,7 +99,7 @@ main {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         text-transform: uppercase;
-        font-size: 13px;
+        font-size: 16px;
         min-height: 41px;
         padding: 0 30px;
         top: 27px;
@@ -115,7 +117,6 @@ main {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 36px;
    
     h2 {
         font-family: 'Montserrat', sans-serif;
@@ -131,6 +132,11 @@ main {
         font-size: 16px;
         color: #555555;
     }
+
+    &_tt {
+        margin: 103px auto 77px;
+        background-color: tomato;
+    }
 }
 
 .ba-dash {
@@ -142,13 +148,25 @@ main {
 
 .ba-font_aw {
     height: 88px;
+    width: 88px;
     border-radius: 50%;
     border: 2px solid #dedede;
-
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.ba-typo {
+    background-color: #c0301c;
+    color: #ffffff;
+}
+
 
 .fas, .far {
     color: #c0301c;
+    font-size: 41px;
+    font-weight: 400;
 }
 
 .ba-services_menu {
@@ -159,7 +177,7 @@ main {
 
     h4 {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 14px;
         text-transform: uppercase;
     }
