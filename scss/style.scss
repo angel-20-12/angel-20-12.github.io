@@ -42,14 +42,13 @@
 }
 
 main {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/Rectangle2copy.png) ;
     z-index: 0;
     position: relative;
-    background-position: bottom;
 }
 
 .ba-welcom {
@@ -117,26 +116,26 @@ main {
     display: flex;
     align-items: center;
     text-align: center;
-   
-    h2 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        text-transform: uppercase;
-        color: #555555;
-    }
-
-    p {
-        font-family: 'Roboto Slab', serif;
-        font-weight: 400;
-        font-size: 16px;
-        color: #555555;
-    }
+    margin-bottom: 70px;
 
     &_tt {
-        margin: 103px auto 77px;
-        background-color: tomato;
-    }
+        margin: 100px auto 74px;
+        }
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+#ba-par {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #555555;
 }
 
 .ba-dash {
@@ -157,16 +156,23 @@ main {
     align-items: center;
 }
 
-.ba-typo {
-    background-color: #c0301c;
-    color: #ffffff;
-}
-
-
 .fas, .far {
     color: #c0301c;
     font-size: 41px;
     font-weight: 400;
+}
+
+.fab {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+.ba-font_aw:hover {
+    background-color: #c0301c;
+    .fas, .far {
+        color: white;
+    }
 }
 
 .ba-services_menu {
@@ -183,7 +189,91 @@ main {
     }
 }
 
+.ba-text {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
 
+}
+
+.ba-about {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin-bottom: 76px;
+
+    &_tt {
+        margin: 100px auto 74px;
+    }
+}
+
+.left {
+    text-align: left;
+}
+
+.ba-memder {
+    .member_hover {
+        display: none;
+    }
+}
+
+.ba-memder:hover {
+    position: relative;
+    .member_hover {
+        display: block;
+        position: absolute;
+        background-color: #000000;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: .5;
+    }
+}
+
+.ba-socials {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+}
+
+.ba-social {
+    width: 24px;
+    height: 24px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.ba-social:hover {
+    background-color: #c0301c;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    height: 38px;
+    width: 38px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+    background: #8f8f8f;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    color: white;
+    background: #c0301c;
+}
 
 .ba-footer { 
     height: 100px;

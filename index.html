@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Startup</title>
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'>
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css'>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -63,11 +65,12 @@
         </section>
         <section class="ba-section ba-services">
             <div class="container">
-                <div class="ba-service_tt">
+                <div class="ba-services_tt">
                     <h2>Services</h2>
                     <div class="ba-dash"></div>
-                    <p>We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+                    <p id="ba-par">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
                 </div>
+                
                 <div class="ba-row">
                     <div class="ba-col-4">
                         <div class="ba-font_aw ba-typo">
@@ -75,7 +78,7 @@
                         </div>
                         <div class="ba-services_menu">
                             <h4>Clean typography</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <p class="ba-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 Enim facilisis gravida neque convallis.
                             </p>
@@ -87,10 +90,10 @@
                         </div>    
                         <div class="ba-services_menu">
                             <h4>Rock solid code</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <p class="ba-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 Enim facilisis gravida neque convallis.
-                            </p>
+                            </pclass="ba-text">
                         </div>
                     </div>
                     <div class="ba-col-4">
@@ -99,7 +102,7 @@
                         </div>   
                         <div class="ba-services_menu">
                             <h4>Expert support</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <p class="ba-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 Enim facilisis gravida neque convallis.
                             </p>
@@ -107,6 +110,131 @@
                     </div>
                 </div>
             </div>
+        </section>
+  
+
+
+        <section class="ba-section ba-about">
+            <div class="container">
+                <div class="ba-about_tt">
+                    <h2>About us</h2>
+                    <div class="ba-dash"></div>
+                    <p id="ba-par">Lorem ipsum dolor sit amet, consectetur sadipscing elitr amet</p>
+                </div>
+                <div class="ba-row">
+                    <div class="ba-col-6">
+                        <p class="ba-text left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirtempor
+                            invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos eaccusam 
+                            et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. 
+                    </div>        
+                    <div class="ba-col-6">
+                        <p class="ba-text left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirtempor
+                            invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos eaccusam 
+                            et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. 
+                        </p>    
+                    </div>
+                </div>  
+                
+                <div class="ba-row ba-members">
+                    <div class="ba-col-3">
+                        <div class="ba-memder">
+                            <img src="img/men1.png">
+                            <div class="member_hover">
+                                <div class="ba-socials">
+                                    <div class="ba-social">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span>Md. Khalil Uddin</span>
+                        <span>Head of Ideas</span>
+                    </div>
+                    <div class="ba-col-3">
+                        <div class="ba-memder">
+                            <img src="img/men2.png">
+                            <div class="member_hover">
+                                <div class="ba-socials">
+                                    <div class="ba-social">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span>Rubel Miah</span>
+                        <span>Lead WordPress Developer</span>
+                    </div>
+                    <div class="ba-col-3">
+                        <div class="ba-memder">
+                            <img src="img/men3.png">
+                            <div class="member_hover">
+                                <div class="ba-socials">
+                                    <div class="ba-social">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="ba-name">Shamim Mia</span>
+                        <span class="ba-prof">Sr. Web Developer</span>
+                    </div>
+                    <div class="ba-col-3">
+                        <div class="ba-memder">
+                            <img src="img/men4.png">
+                            <div class="member_hover">
+                                <div class="ba-socials">
+                                    <div class="ba-social">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </div>
+                                    <div class="ba-social">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span>John Doe</span>
+                        <span>Front-end Developer</span>
+                    </div>
+    
+                </div>
+                
+            </div>
+            
         </section>
     </main>
     
@@ -120,6 +248,11 @@
             
         </div>
     </footer>
-
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.js"
+    integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+    crossorigin="anonymous"></script>
+    <script src ='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js'></script>
+    <script src='js/app.js'></script>
 </body>
 </html>
