@@ -21,6 +21,7 @@
     font-weight: 400;
     font-size: 14px;
     margin-left: 24px;
+
 }
 
 .ba-header {
@@ -264,16 +265,79 @@ h2 {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     cursor: pointer;
-    color: white;
+    color: #ffffff;
     border: none;
     outline: none;
     background: #8f8f8f;
 }
 
 .slick-prev:hover, .slick-next:hover {
-    color: white;
+    color: #ffffff;
     background: #c0301c;
 }
+
+.ba-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.ba-prof {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #555555;
+}
+
+.ba-latest {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 76px;
+
+    &_ws {
+        margin: 100px auto 100px;
+    }
+}
+
+.ba-menu__work {
+    color: #555555;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+// .ba-overlay_project {
+//     position: absolute;
+//     background-color: #c0301c;
+//     height: 100%;
+//     width: 100%;
+//     top: 0;
+//     left: 0;
+//     opacity: .5;
+// }
+
+.ba-project {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/Proj.png);
+    height: 370px;
+    width: 100%;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
 
 .ba-footer { 
     height: 100px;
